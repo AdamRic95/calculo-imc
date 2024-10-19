@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2); /* Gradiente do azul claro ao verde claro */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Verde calmo */
+}
+
+p {
+    color: #555; /* Cinza escuro */
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00796b; /* Verde calmo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40; /* Verde mais escuro */
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: none; /* Inicialmente oculto */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #00796b; /* Verde calmo */
+    color: white;
+}
+
+.campanha {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #b2dfdb; /* Verde claro */
+    border-radius: 4px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+/* Estilização do resultado com cores */
+.resultado.abaixo-do-peso {
+    color: blue;
+}
+
+.resultado.peso-normal {
+    color: green;
+}
+
+.resultado.sobrepeso {
+    color: orange;
+}
+
+.resultado.obesidade-grau-1 {
+    color: yellow;
+}
+
+.resultado.obesidade-grau-2 {
+    color: red;
+}
+
+.resultado.obesidade-grau-3 {
+    color: darkred;
+}
+

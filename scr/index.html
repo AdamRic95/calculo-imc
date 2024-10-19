@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calcule Seu IMC</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calcule Seu IMC</h1>
+        <p>A manutenção do peso ideal é fundamental para a sua saúde. Um IMC adequado pode reduzir o risco de doenças, melhorar a qualidade de vida e aumentar a longevidade. Calcule seu IMC e veja em qual faixa você se encontra!</p>
+
+        <label for="peso">Informe o seu peso (kg):</label>
+        <input type="number" id="peso" placeholder="Peso em kg" required>
+
+        <label for="altura">Informe sua altura (m):</label>
+        <input type="number" id="altura" step="0.01" placeholder="Altura em metros" required>
+
+        <button onclick="calcularIMC()">Calcular IMC</button>
+
+        <div id="resultado" class="resultado"></div>
+
+        <h2>Faixas de IMC</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Faixa de IMC</th>
+                    <th>Classificação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Abaixo de 18.5</td>
+                    <td>Abaixo do peso</td>
+                </tr>
+                <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Peso normal</td>
+                </tr>
+                <tr>
+                    <td>25.0 - 29.9</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr>
+                    <td>30.0 - 34.9</td>
+                    <td>Obesidade grau I</td>
+                </tr>
+                <tr>
+                    <td>35.0 - 39.9</td>
+                    <td>Obesidade grau II (severa)</td>
+                </tr>
+                <tr>
+                    <td>40.0 e acima</td>
+                    <td>Obesidade grau III (mórbida)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="campanha">
+            <p>Lembre-se de beber água regularmente! Manter-se hidratado é essencial para a saúde.</p>
+        </div>
+        
+        <div class="motivacional" style="text-align: center; margin: 20px 0; font-style: italic; color: #00796b;">
+            <p>"A saúde não é apenas a ausência de doença, mas um estado de completo bem-estar físico, mental e social." – Organização Mundial da Saúde</p>
+            <p>"Seu corpo é um templo, mas somente se você tratá-lo como tal." – Astrid Alauda</p>
+            <p>"Cuidar da sua saúde é um ato de amor próprio." – Desconhecido</p>
+        </div>
+
+        <div style="text-align: center; margin: 20px 0;">
+            <a href="bem-estar.html" style="color: #00796b; text-decoration: underline;">Leia mais sobre bem-estar e alimentação saudável</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

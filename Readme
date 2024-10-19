@@ -1,0 +1,77 @@
+# Cálculo de IMC
+
+Este é um aplicativo simples de cálculo de IMC (Índice de Massa Corporal) que permite aos usuários calcular seu IMC com base em seu peso e altura. O aplicativo fornece informações sobre a classificação do IMC e dicas sobre saúde e bem-estar.
+
+## Descrição
+
+O cálculo do IMC é uma ferramenta útil para avaliar a saúde e identificar possíveis problemas relacionados ao peso. Este aplicativo oferece uma interface amigável e informativa, onde os usuários podem inserir seu peso e altura e receber instantaneamente o resultado do IMC, juntamente com sua classificação.
+
+### Funcionalidades
+
+- Cálculo do IMC com base no peso e altura inseridos.
+- Exibição de faixas de IMC e classificações.
+- Mensagens motivacionais sobre saúde e bem-estar.
+- Link para uma página dedicada com informações sobre alimentação saudável e bem-estar.
+- Design responsivo e moderno.
+
+## Tecnologias Utilizadas
+
+- **HTML**: Estrutura da página
+- **CSS**: Estilização e design
+- **JavaScript**: Funcionalidade de cálculo do IMC
+
+## Como Usar
+
+1. Clone o repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/AdamRic95/calculo-imc.git
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd calculo-imc
+   ```
+
+3. Abra o arquivo `index.html` em seu navegador:
+   ```bash
+   open index.html
+   ```
+
+4. Insira seu peso e altura nos campos fornecidos e clique em "Calcular IMC".
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você deseja contribuir com este projeto, siga os seguintes passos:
+
+1. Faça um fork deste repositório.
+2. Crie uma nova branch:
+   ```bash
+   git checkout -b minha-contribuicao
+   ```
+
+3. Faça suas alterações e commit:
+   ```bash
+   git commit -m "Adicionando minha contribuição"
+   ```
+
+4. Envie para o repositório remoto:
+   ```bash
+   git push origin minha-contribuicao
+   ```
+
+5. Abra um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
+
+## Agradecimentos
+
+Agradeço ao professor Guilherme Carvalho pelo apoio e orientação durante o desenvolvimento deste projeto.
+
+## Contato
+
+- **Autor**: Adam Richard Oliveira Mendes
+- **Email**: adamrichardom@gmail.com
+- **LinkedIn**: [adamrichardmendes](https://www.linkedin.com/in/adamrichardmendes/)
+```
